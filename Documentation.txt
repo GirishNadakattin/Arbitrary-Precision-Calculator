@@ -1,0 +1,47 @@
+1. Project Title: Arbitrary Precision Calculator (APC)
+
+2. Name         : Girish Iranna Nadakattin
+
+3. Start date   : 09/02/2026
+
+4. End date     : 18/02/2026
+
+5. Description  : An APC (Arbitrary Precision Calculator) is a program that performs arithmetic operations
+                 on very large numbers that exceed the limits of standard data types. It stores numbers digit 
+                 by digit using data structures like linked lists and performs calculations manually (like on paper), 
+                 allowing it to handle numbers of virtually unlimited size.
+
+
+6. Sample input and Output: 
+
+    1. ./APC.out 9898 + 79
+        Operand1 : 9898
+        Operand2 : 79
+        Result: 9977
+    
+    2. ./APC.out 9898 - -79
+        Operand1 : 9898
+        Operand2 : 79
+        Result: 9977
+
+    3. ./APC.out 9898 "*" -79
+        Operand1 : 9898
+        Operand2 : 79
+        Result: -781942
+
+    4.  ./APC.out 9898 / 79
+        Operand1 : 9898
+        Operand2 : 79
+        Result: 125
+
+    5. ./APC.out 0 / 79
+        Operand1 : 0
+        Operand2 : 79
+        Result: 0
+    
+    6. ./APC.out
+        INFO : give commands correctly
+        USAGE : ./output.exe <Operand 1> <Operator> <Operand 2>
+
+    7. ./APC.out 0 /+ 79
+        Error: Invalid operator 
